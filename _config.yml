@@ -28,9 +28,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: scott_draves
 github_username:  scottdraves
 
-# Build settings
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dark"
+collections:
+  features:
+    order:
+      - pioneering.md
+      - research.md
+      - academic.md
+      - innovative.md
+      - interview.md
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
 plugins:
   - jekyll-feed
 
