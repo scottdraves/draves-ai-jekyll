@@ -54,7 +54,7 @@ links:
   <img class="author__avatar-img" src="/assets/img/face.jpg" alt="Author">
 </div>
 
-<div class="feature__wrapper custom-features custom-features-first" data-aos="fade-up">
+<div class="feature__wrapper custom-features" data-aos="fade-up">
   {% for feature in site.features limit:3 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
@@ -126,16 +126,16 @@ links:
   </div>
 </div>
 
-<div class="figure-row d-flex" data-aos="fade-up">
+<div class="figure-row d-flex flex-wrap" data-aos="fade-up">
   {% for item in page.gallery3 %}
-    <div style="max-width: 215px">
-      <figure class="" style="max-width: 100%; height: 170px">
+    <div class="gallery-item">
+      <figure>
         <a href="{{ item.image_path }}" class="image-popup" title="{{ item.excerpt }}">
-          <img style="height: 200px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
+          <img src="{{ item.image_path }}" alt="{{ item.excerpt }}">
         </a>
       </figure>
-      <figcaption style="width: fit-content;">
-        <p style="width: fit-content;">{{ item.excerpt }}</p>
+      <figcaption>
+        <p>{{ item.excerpt }}</p>
       </figcaption>
     </div>
   {% endfor %}
@@ -154,12 +154,16 @@ links:
   {% endfor %}
 </div>
 
-<div class="figure-row-horizontal" data-aos="fade-up" data-aos-delay="500">
-  <div class="author__urls social-icons">
+<div class="author__urls-wrapper" data-aos="fade-up" data-aos-delay="500">
+  <ul class="author__urls social-icons">
   {% for link in page.links %}
     {% if link.label and link.url %}
-       <a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
+      <li>
+        <a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}>
+          <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span>
+        </a>
+      </li>
     {% endif %}
   {% endfor %}
-  </div>
+  </ul>
 </div>
