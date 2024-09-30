@@ -1,14 +1,7 @@
 ---
-title: Academic & Artistic Research
+title: Prizes and Exhibitions
 image_path: /assets/img/bullhorn-solid.svg
 ---
-
-<p>
-  Starting in the 80s as a Brown University and later Carnegie Mellon
-  Computer Science PhD researcher, Draves advanced techniques for
-  metaprogramming and interactive media that now power GPU and AI
-  programming.
-</p>
 <p>
   In the 90s he created software artworks that won top prizes such
   as Prix Ars Electronica, ZKM, and Art Futura. These infinite and
