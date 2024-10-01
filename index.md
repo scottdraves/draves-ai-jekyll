@@ -26,15 +26,6 @@ gallery3:
 gallery4:
   - excerpt: Opening night of Lexus Hybrid Art, Moscow 2010
     image_path: /assets/img/draves-moscow-P1000207-888x1024.jpg
-gallery5:
-  - excerpt: Paul Simon album cover made with Draves' code, 2011
-    image_path: /assets/img/IMG_8310.jpeg
-  - excerpt: Stephen Hawking book cover made with Draves' code, 2010
-    image_path: /assets/img/hawking flame.jpg
-  - excerpt: At Webster Hall on 50 flat screens, New York 2009
-    image_path: /assets/img/IMG_8308.jpeg
-  - excerpt: Skrillex, Grimes, Diplo, Pretty Lights with Electric Sheep, summer tour 2012
-    image_path: /assets/img/skrillex-electric-sheep-train-grimes.png
 links:
   - label: "LinkedIn"
     icon: "fab fa-fw fa-linkedin"
@@ -102,41 +93,7 @@ links:
 
 
 <div class="feature__wrapper custom-features" data-aos="fade-up">
-   {% for feature in site.features offset:3 limit:3 %}
-    <div class="feature__item custom-feature">
-      <div class="archive__item">
-        <div class="archive__item-header">
-          <div class="archive__item-icon">
-           {% capture svg_content %}{% include_relative {{ feature.image_path }} %}{% endcapture %}
-          {{ svg_content | replace: '#69bbff', site.feature_icon_colour | replace: '<svg', '<svg width="40" height="40"' }}
-          </div>
-          <h2 class="archive__item-title">{{ feature.title }}</h2>
-        </div>
-        <div class="archive__item-excerpt">
-          {{ feature.excerpt | markdownify }}
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-</div>
-
-<div class="figure-row d-flex" data-aos="fade-up">
-  {% for item in page.gallery5 %}
-    <div style="max-width: 215px">
-      <figure class="" style="max-width: 100%; height: 170px">
-        <a href="{{ item.image_path }}" class="image-popup">
-          <img style="height: 200px" src="{{ item.image_path }}" alt="{{ item.excerpt }}">
-        </a>
-      </figure>
-      <figcaption style="width: fit-content;">
-        <p style="width: fit-content;">{{ item.excerpt }}</p>
-      </figcaption>
-    </div>
-  {% endfor %}
-</div>
-
-<div class="feature__wrapper custom-features" data-aos="fade-up">
-   {% for feature in site.features offset:6 limit:3 %}
+   {% for feature in site.features offset:3 limit:5 %}
     <div class="feature__item custom-feature">
       <div class="archive__item">
         <div class="archive__item-header">

@@ -12,15 +12,12 @@ feature_icon_colour: "#69bbff"
 collections:
   features:
     order:
-      00_pioneering.md
-      05_vj.md
-      10_research.md
-      15_leader.md
-      20_academic.md
-      25_prizes.md
-      30_interview.md
-      40_open.md
-      50_innovative.md
+      0_pioneering.md
+      1_research.md
+      2_academic.md
+      3_interview.md
+      4_open.md
+      5_innovative.md
 
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"
