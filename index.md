@@ -27,6 +27,9 @@ gallery4:
   - excerpt: Opening night of Lexus Hybrid Art, Moscow 2010
     image_path: /assets/img/draves-moscow-P1000207-888x1024.jpg
 links:
+  - label: "BlueSky"
+    icon: "fab fa-fw fa-bluesky"
+    url: "https://bsky.app/profile/draves.ai"
   - label: "LinkedIn"
     icon: "fab fa-fw fa-linkedin"
     url: "https://www.linkedin.com/in/scottdraves"
