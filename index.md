@@ -114,7 +114,6 @@ links:
   {% endfor %}
 </div>
 
-
 <div class="testimonials-gallery-row" data-aos="fade-up">
   {% for item in page.gallery2 limit:1 %}
       <div class="gallery-column">
