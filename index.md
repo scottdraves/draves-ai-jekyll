@@ -36,6 +36,9 @@ gallery5:
   - excerpt: Skrillex, Grimes, Diplo, Pretty Lights with Electric Sheep, summer tour 2012
     image_path: /assets/img/skrillex-electric-sheep-train-grimes.png
 links:
+  - label: "BlueSky"
+    icon: "fab fa-fw fa-bluesky"
+    url: "https://bsky.app/profile/draves.ai"
   - label: "LinkedIn"
     icon: "fab fa-fw fa-linkedin"
     url: "https://www.linkedin.com/in/scottdraves"
