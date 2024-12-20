@@ -24,7 +24,6 @@ GEM
     ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86-linux-gnu)
     ffi (1.17.0-x86-linux-musl)
-    ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     ffi (1.17.0-x86_64-linux-musl)
     forwardable-extended (2.6.0)
@@ -38,9 +37,6 @@ GEM
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.2-x86-linux)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.29.2-x86_64-darwin)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.2-x86_64-linux)
@@ -148,8 +144,6 @@ GEM
       google-protobuf (~> 4.28)
     sass-embedded (1.83.0-x86_64-cygwin)
       google-protobuf (~> 4.28)
-    sass-embedded (1.83.0-x86_64-darwin)
-      google-protobuf (~> 4.28)
     sass-embedded (1.83.0-x86_64-linux-android)
       google-protobuf (~> 4.28)
     sass-embedded (1.83.0-x86_64-linux-gnu)
@@ -177,6 +171,7 @@ PLATFORMS
   arm-linux-musl
   arm-linux-musleabihf
   arm64-darwin-23
+  arm64-darwin-24
   riscv64-linux-android
   riscv64-linux-gnu
   riscv64-linux-musl
@@ -188,7 +183,6 @@ PLATFORMS
   x86-linux-musl
   x86-mingw-ucrt
   x86_64-cygwin
-  x86_64-darwin
   x86_64-linux
   x86_64-linux-android
   x86_64-linux-gnu
