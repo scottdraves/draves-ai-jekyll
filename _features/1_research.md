@@ -19,6 +19,8 @@ image_path: /assets/img/globe-solid.svg
   team through its acquisition by Meta Reality Labs.
 </p>
 <p>
-  His last regular job was VP of Engineering at Stability.AI,
-  creators of the Stable Diffusion image generating AI.
+  He was VP of Engineering at Stability.AI,
+  creators of the original Stable Diffusion image generating AI.
+  And now he's founder of <a href="https://infinidream.ai/">Infinidream</a>,
+  an open source AI platform.
 </p>
